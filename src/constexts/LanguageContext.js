@@ -1,3 +1,7 @@
 import React from "react";
 
-export default React.createContext("arabic")
+const context = React.createContext("arabic")
+
+console.log(context)
+
+export default context
